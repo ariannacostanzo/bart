@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.cdnfonts.com/css/homer-simpson-revised" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="woodenboard">
+            <div class="blackboard">
+            </div>
+        </div>
+        
+        <figure>
+            <div class="cloud-container">
+                <div class="cloud-text">
+                    <div class="first-question d-none">
+                        <p >Cosa vuoi che scriva?</p>
+                        <input type="text" id="sentence">
+                    </div>
+                    <div class="second-question d-none">
+                        <p >Quante volte vuoi che lo scriva?</p>
+                        <input type="number" id="number">
+                    </div>
+                    <p class="d-none" id="ciucciati">AH AH Ciucciati il calzino!</p>
+                    <p class="d-none" id="pizza">Che pizza!</p>
+                </div>
+                <button class="d-none" id="confirm" type="button">&check;</button>
+                <button class="d-none" id="pass" type="button">&check;</button>
+            </div>
+            <img src="images/bart.png" alt="" id="bart">
+        </figure>
+        
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

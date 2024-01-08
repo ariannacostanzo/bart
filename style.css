@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Homer Simpson Revised', sans-serif;
+}
+
+/* utils */
+
+.d-none {
+    display: none;
+}
+
+.d-block {
+    display: block;
+}
+
+.container {
+    position: relative;
+}
+
+.woodenboard {
+    height: 550px;
+    width: 1250px;
+    margin: 3rem auto;
+    background-color: #b56d29;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 1px black;
+    border: 1px solid black;
+
+}
+
+.blackboard {
+    height: 500px;
+    width: 1200px;
+    background-color: #407f71;
+    /* margin: 3rem auto; */
+    padding: 1rem;
+    box-shadow: 0 0 2px black;
+    border: 1px solid black;
+    position: relative;
+    font-size: 2rem;
+    overflow: hidden;
+}
+
+.blackboard span {
+    padding-right: 10px;
+}
+
+figure {
+    position: absolute;
+    background-color: red;
+    right: 250px;
+    bottom: 0;
+    height: 100%;
+}
+
+#bart {
+    max-height: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    translate: 50% 50%;
+    cursor: pointer;
+}
+
+.cloud-container {
+    position: absolute;
+    right: 78px;
+    bottom: 63px;
+    background-image: url(images/cloud.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 300px;
+    height: 150px;
+    
+
+}
+
+.cloud-text {
+    /* background-color: aqua; */
+    width: 170px;
+    height: 50%;
+    margin: 1rem 1.5rem;
+    position: relative;
+    translate: -4px 6px;
+    bottom: 0;
+    left: 0;
+    padding: 0 1.2rem 0 .6rem;
+    overflow: hidden;
+    font-size: 1.3rem;
+
+}
+
+.cloud-text input {
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 140px;
+    padding-left: .3rem;
+    font-size: .8rem;
+}
+
+#confirm {
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+    left: 169px;
+    bottom: 59px;
+}
+
+#pass {
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+    left: 169px;
+    bottom: 59px;
+}
+
+#cloud {
+    max-width: 300px;
+    
+}
